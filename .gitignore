@@ -286,3 +286,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# jfr, 20190309, configuracion de VS Code
+./vscode/
