@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# jfr, 20190309, configuracion de VS Code
+.vscode/
+
 # User-specific files
 *.suo
 *.user
@@ -287,5 +290,4 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-# jfr, 20190309, configuracion de VS Code
-./vscode/
+
