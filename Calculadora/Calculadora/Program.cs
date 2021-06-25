@@ -6,8 +6,6 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            // Declarar variables y después inicializarlas a cero.
-            int num1 = 0; int num2 = 0;
 
             // Mostrar título como la aplicación de calculadora en C#.
             Console.WriteLine("Calculadora de Consola en C#");
@@ -15,11 +13,12 @@ namespace Calculadora
 
             // Pedimos al usuario que teclee el primer número.
             Console.WriteLine("Teclee un número, y después presione Intro");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            // Declarar variables y después inicializarlas a cero.
+            int num1 = Convert.ToInt32(Console.ReadLine());
 
             // Pedimos al usuario que teclee el segundo número.
             Console.WriteLine("Teclee otro número, y después presione Intro");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
 
             // Pedimos al usuario que seleccione una opción.
             Console.WriteLine("Seleccione una opción de la siguiente lista:");
