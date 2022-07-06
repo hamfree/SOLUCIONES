@@ -1,0 +1,4 @@
+#nombre$direccion$telefono$dni
+SALVA$Calle del Medio, 23. Cifuentes, Guadalajara$910123456$36209623X
+PEPE$ C/ SDFSADF$4353453453$3453456345
+JUAN$C/ ÑADSLKFJ$34535345$335354345

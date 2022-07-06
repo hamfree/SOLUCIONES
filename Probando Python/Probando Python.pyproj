@@ -1,0 +1,86 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>96389a04-e739-4f65-8ae0-2b20bdb8b64a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Probando_Python.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Probando Python</Name>
+    <RootNamespace>Probando Python</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="clase-dia2.py" />
+    <Compile Include="clase.py" />
+    <Compile Include="ClaseEmpleado.py" />
+    <Compile Include="ClasePersona.py" />
+    <Compile Include="copia de clase-dia2.py" />
+    <Compile Include="copia de clase.py" />
+    <Compile Include="diccionarioBasico.py" />
+    <Compile Include="diccionarios.py" />
+    <Compile Include="ejemplo-dia3-01.py" />
+    <Compile Include="ejemplo2JSon.py" />
+    <Compile Include="EjemploFicheros1.py" />
+    <Compile Include="EjemploFicheros2.py" />
+    <Compile Include="EjemploFicheros3.py" />
+    <Compile Include="EjemploJSON.py" />
+    <Compile Include="EjemploMySQL.py" />
+    <Compile Include="ejercicio-dia1-01.py" />
+    <Compile Include="ejercicio-dia2-01.py" />
+    <Compile Include="ejercicio-dia2-02.py" />
+    <Compile Include="ejercicio-dia2-03.py" />
+    <Compile Include="ejercicio-dia2-1.py" />
+    <Compile Include="ejercicio-dia2-2.py" />
+    <Compile Include="ejercicio-dia3-01.py" />
+    <Compile Include="ejercicio-dia3-02.py" />
+    <Compile Include="Hola Mundo.py" />
+    <Compile Include="if.py" />
+    <Compile Include="listas.py" />
+    <Compile Include="listasBasico.py" />
+    <Compile Include="nombre.py" />
+    <Compile Include="poo_Ejemplo_clase.py" />
+    <Compile Include="poo_Ejemplo_Herencia.py" />
+    <Compile Include="practica01_dia2.py" />
+    <Compile Include="practica01_dia3.py" />
+    <Compile Include="practicaDia2_2.py" />
+    <Compile Include="PracticaFinal.py" />
+    <Compile Include="Probando_Python.py" />
+    <Compile Include="tuplas.py" />
+    <Compile Include="tuplasBasico.py" />
+    <Compile Include="while.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="copia de prueba.txt" />
+    <Content Include="datos.json" />
+    <Content Include="datos2.json" />
+    <Content Include="DatosPersonas2.txt" />
+    <Content Include="DatosPersonasRespuesta2.txt" />
+    <Content Include="fichero.txt" />
+    <Content Include="fichero2.txt" />
+    <Content Include="fichero3.txt" />
+    <Content Include="mysql.sql" />
+    <Content Include="persona.txt" />
+    <Content Include="persona2.txt" />
+    <Content Include="prueba.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
