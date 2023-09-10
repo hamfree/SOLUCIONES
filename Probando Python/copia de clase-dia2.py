@@ -38,10 +38,10 @@
 # modo 'r' read, que lee el fichero si existe y si no dara un error
 def leerFichero():
     f = open('clase.py','r')
-    print "Contenido de 'clase.py'"
-    print "-----------------------"
+    print("Contenido de 'clase.py'")
+    print("-----------------------")
     for l in f:
-        print l
+        print(l)
 
 # modo 'a' append, que añade al fichero si existe y si no lo crea
 def sobreescribirFichero():

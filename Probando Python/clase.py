@@ -37,15 +37,15 @@
 """
 # modo 'r' read, que lee el fichero si existe y si no dara un error
 def leerFichero():
-    f = open('clase.py','r')
-    print "Contenido de 'clase.py'"
-    print "-----------------------"
+    f = open('clase.py','r',10,'utf-8')
+    print( "Contenido de 'clase.py'")
+    print( "-----------------------")
     for l in f:
-        print l
+        print( l)
 
 # modo 'a' append, que añade al fichero si existe y si no lo crea
 def sobreescribirFichero():
-    f = open('prueba.txt','a')
+    f = open('prueba.txt','a',10,'utf-8')
     for i in [1,3,5,7,9,21,12,32,23]:
         f.write('Hola' + str(i) + '\n')
     f.close()
@@ -54,8 +54,8 @@ def sobreescribirFichero():
 
 # modo 'w' write, que escribe en el fichero si existe, sobreescribiendo lo que tuviera, y si no lo crea.
 def leerEscribirFichero():
-    fr = open('clase.py','r')
-    fw = open('copia de clase.py','w')
+    fr = open('clase.py','r',10,'utf-8')
+    fw = open('copia de clase.py','w',10,'utf-8')
     for l in fr:
         fw.write(l)
     fr.close()
